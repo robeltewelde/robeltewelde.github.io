@@ -1,11 +1,90 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>hello world</h1>
-    <a href="./class/index.html">project1</a>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="col">
+      <h2>Phone: <a href="">+251 914 028 900</a></h2>
+      <h2>Email: <a href="">robeltewalde29@gmail.com</a></h2>
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+    <header class="header">
+      <a href="#home" class="mylogo">My <span>Portfolio</span></a>
+      <nav class="navbar">
+        <a href="index.html#home">HOME</a>
+        <a href="index.html#about-me">ABOUT ME</a>
+        <a href="index.html#services">SERVICES</a>
+        <a href="index.html#contact">CONTACT</a>
+      </nav>
+    </header>
+    <section id="home" class="home">
+        <div class="content">
+            <h3>Hi, Everyone</h3>
+            <h1>I'm <span>Robel Tewelde</span></h1>
+            <h3>Full Stack Web Developer</h3>
+            <button type="button" onclick="location.href='projects.php';">See My Projects</button>
+            
+        </div>
+        <div class="image-cntainer">
+            <img src="rb.jpg" alt="">
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+    <h1>Contact Us</h1>
+
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="athioia">Ethioia</option>
+          <option value="usa">USA</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+</section>
+
+    
+</body>
 </html>

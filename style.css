@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: rgb(11, 11, 11);
+}
+
+.col {
+    display: flex;
+    gap: 20px;
+    padding-left: 50;
+    background-color: aqua;
+
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 20px;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0, 0, 0.150);
+
+}
+
+.mylogo {
+    position: relative;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 30px;
+ 
+}
+
+.navbar a:hover{
+    color: blue;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 50);
+    padding: 70px 10%;
+}
+
+.content {
+    max-width: 600px;
+}
+
+.content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(235, 235, 255);
+
+}
+
+.content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin: -3px 0;
+    color: white;
+}
+
+span{
+    color: blue;
+}
+
+.content {
+
+}
+
+.image-container{
+    position: absolute;
+    top: 25%;
+    right: 100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+ img{
+    width: 400px;
+    height: 400;
+    border-radius: 600px;
+}
+/*contact us form*/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #559957;
+    color: rgb(0, 90, 225);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #2fac35;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #402785;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  .col-95 {
+    float: right;
+    color: rgb(6, 255, 197);
+  }
+
+  .col-95 a {
+    font-size: 18px;
+    color: rgb(6, 255, 197);
+  }
+
+  .col-95 a:hover {
+     transform: scale(1.05);
+     transition: all 0.3s ease-in-out;
+     color: darkblue;
+
+  }
+  
+  /* Clear floats after the columns */  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
