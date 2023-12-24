@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+        <!-- header -->
     <div class="col">
       <h2>Phone: <a href="">+251 914 028 900</a></h2>
       <h2>Email: <a href="">robeltewalde29@gmail.com</a></h2>
@@ -36,32 +36,43 @@
 
     </section>
 
+    <!-- about-me form -->
+
+    <section id="about-me">
+        <div class="image-cntainer">
+        <img src="download.png" alt="">
+      </div>
+      <div class="content">
+        <h3>About Me</h3>
+        <p>I'm a Full Stack Web Developer with a background in IT and a passion for learning new technologies. I'm currently learning to code and I'm looking to expand my skills in the field of web development.</p>
+      </div>
+    
+    </section>
+
+     <!-- /* contact us form */ -->
+
     <section id="contact">
-    <h1>Contact Us</h1>
+    
 
 <div class="container">
-  <form action="/action_page.php">
-    <div class="row">
-      <div class="col-25">
-        <label for="fname">First Name</label>
-      </div>
+  <div class="out">
+   <h1>Contact Us</h1>
+   <form action="/action_page.php">
+    <div class="row">     
       <div class="col-75">
+        <label for="fname" style="color: white;">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
       </div>
     </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="lname">Last Name</label>
-      </div>
+    <div class="row">    
       <div class="col-75">
+        <label for="lname" style="color: white;">Last Name</label>
         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
       </div>
     </div>
     <div class="row">
-      <div class="col-25">
-        <label for="country">Country</label>
-      </div>
       <div class="col-75">
+        <label for="country" style="margin: 12; color: white;">Country</label>
         <select id="country" name="country">
           <option value="athioia">Ethioia</option>
           <option value="usa">USA</option>
@@ -71,18 +82,23 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-25">
-        <label for="subject">Subject</label>
-      </div>
+      
       <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+        <label for="subject" style="margin: 12 ; color: white;">Subject</label>
+        <textarea  id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
       </div>
     </div>
     <div class="row">
       <input type="submit" value="Submit">
     </div>
-  </form>
+    
+   </form>
+  </div>
+  <div class="top">
+    <h1>contact with </h1>
+  </div>
 </div>
+    
 </section>
 
     

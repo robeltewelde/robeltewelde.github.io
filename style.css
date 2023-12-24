@@ -17,6 +17,7 @@ body {
 
 }
 
+/* header form */
 
 .header {
     position: fixed;
@@ -112,22 +113,51 @@ span{
     height: 400;
     border-radius: 600px;
 }
+
+/* about-me form */
+
+#about-me {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 70px 10%;
+}
+
+#about-me h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: blue;
+  }
+  #name {
+    text-align: left;
+    max-width: 80%;
+    }
+
+
 /*contact us form*/
 
+h1 {
+  color: blue;
+}
+
 input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
+    width: 20%;
+    padding: 10px;
+    border: 1px solid gray;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
-    margin-bottom: 16px;
+    margin-bottom: 6px;
     resize: vertical;
   }
   
   input[type=submit] {
-    background-color: #559957;
-    color: rgb(0, 90, 225);
+    background-color: #b82424;
+    color: rgb(254, 255, 255);
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -137,11 +167,21 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #2fac35;
   }
+
+  h1 {
+    color: blue;
+    font-size: 32px;
+    font-weight: 700;
+  }
   
   .container {
     border-radius: 5px;
-    background-color: #402785;
-    padding: 20px;
+    background-color: #7660af;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
   }
   
   .col-25 {
@@ -173,6 +213,7 @@ input[type=text], select, textarea {
 
   }
   
+
   /* Clear floats after the columns */  
   .row:after {
     content: "";
