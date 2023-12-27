@@ -17,6 +17,17 @@ body {
 
 }
 
+.col .cont {
+  display: flex;
+  gap: 20px;
+}
+
+.col .ton {
+justify-content: space-between;
+ 
+ 
+}
+
 /* header form */
 
 .header {
@@ -125,7 +136,7 @@ span{
     background-position: center;
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: #191919;
     padding: 70px 10%;
 }
 
@@ -138,6 +149,10 @@ span{
   #name {
     text-align: left;
     max-width: 80%;
+    }
+
+    .content p{
+      color: white;
     }
 
 /* service form */
@@ -391,3 +406,5 @@ input[type=text], select, textarea {
     display: table;
     clear: both;
   }
+
+  
