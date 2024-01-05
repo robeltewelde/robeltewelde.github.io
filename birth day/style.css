@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #6c63ff;
+    background: blue;
     display: grid;
     place-items: center;
     height: 100vh;
@@ -18,8 +18,8 @@ body {
 .card {
     background: #fdfdfd;
     border-radius: 20px;
-    height: 85vh;
-    width: 80vw;
+    height: 100vh;
+    width: 85vw;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
     /* display: flex; */
@@ -27,7 +27,11 @@ body {
     justify-content: center;
     align-items: center;
     padding: 1em;
-    overflow: hidden;
+    /* overflow: hidden; */
+}
+
+h1 {
+    color: blue;
 }
 
 .text {
@@ -36,7 +40,7 @@ body {
 }
 
 .card img.birthday {
-    max-height: 10%;
+    max-height: 40vh;
 }
 
 .muted {
